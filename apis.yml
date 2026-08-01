@@ -1,8 +1,26 @@
 aid: sav-technologies-limited
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sav-technologies-limited.png
 name: Sav Technologies Limited
-description: Sav Technologies Limited is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Sav Technologies Limited operates Sav (sav.money), a UAE-based intelligent
+  financial platform that lets users track, save, invest, and grow their wealth across
+  accounts. Sav offers a suite of consumer products including Gold (physical gold
+  investment from AED 10), MyMoney (financial management and savings), Card (a prepaid
+  card with cashback), Wealth (investing), Sav Pro (premium membership), and an upcoming
+  Credit product. Sav describes itself as extending the APIs and technology components
+  of licensed financial services providers to its users. It is a 500 Global portfolio
+  company. As of this enrichment pass, Sav publishes a consumer app and marketing
+  site but no public developer API, API documentation, developer portal, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/sav-technologies-limited/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +30,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fintech
+- Financial Services
+- Savings
+- Investing
+- Wealth Management
+- Gold
+- Prepaid Card
+- Personal Finance
+- UAE
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +49,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sav-technologies-limited-domain-security.yml
 - type: Website
   url: https://sav.money
+- type: Blog
+  url: https://resources.sav.money/blogs
+- type: Support
+  url: https://resources.sav.money/faq
+- type: TermsOfService
+  url: https://resources.sav.money/wp-content/uploads/2024/02/Sav-TC.pdf
+- type: PrivacyPolicy
+  url: https://resources.sav.money/user-guide/Sav-Privacy-Policy.pdf
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
