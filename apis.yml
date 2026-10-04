@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sav-technologies-limited.png
-name: Sav Technologies Limited
+name: Sav
 description: Sav Technologies Limited operates Sav (sav.money), a UAE-based intelligent
   financial platform that lets users track, save, invest, and grow their wealth across
   accounts. Sav offers a suite of consumer products including Gold (physical gold
@@ -45,7 +45,7 @@ modified: '2026-07-21'
 tags:
 - Company
 - Fintech
-- Financial-Services
+- Financial Services
 - Savings
 - Investing
 - Wealth Management
@@ -64,6 +64,7 @@ tags_raw:
 - Prepaid Card
 - Personal Finance
 - UAE
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -88,3 +89,4 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-legal-name: Sav Technologies Limited
